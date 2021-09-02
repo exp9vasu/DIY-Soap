@@ -1,20 +1,9 @@
 fileFormatVersion: 2
-guid: 59149c29d722bd740b8766189c4ab180
+guid: e4f8208a16e536a43a617ced69689d7a
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      74: -2344510565560896146
-    second: Bomb_put.004|Hemi|Hemi|00|Hemi|00
-  - first:
-      74: 5091945325754471294
-    second: Bomb_put.004|Point|Point|00|Point|00
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 0f4f29323fbccf242a581e10bf8ae3c1, type: 2}
+  internalIDToNameTable: []
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0

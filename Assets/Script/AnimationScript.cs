@@ -6,6 +6,7 @@ public class AnimationScript : MonoBehaviour
 {
     public GameObject Hand1_bomb, Hand2_printer;
     public Animator MoldAnim;
+
     // Start is called before the first frame update
     void Start()
     {

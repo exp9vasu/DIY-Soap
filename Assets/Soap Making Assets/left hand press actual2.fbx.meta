@@ -1,20 +1,15 @@
 fileFormatVersion: 2
-guid: 59149c29d722bd740b8766189c4ab180
+guid: 7f2b6d4dfc12a0a4598606fb15c21b0f
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: -2344510565560896146
-    second: Bomb_put.004|Hemi|Hemi|00|Hemi|00
+      74: -2445101336923478971
+    second: Armature.004|Hemi|Hemi|00|Hemi|00
   - first:
-      74: 5091945325754471294
-    second: Bomb_put.004|Point|Point|00|Point|00
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 0f4f29323fbccf242a581e10bf8ae3c1, type: 2}
+      74: -8797964262563182488
+    second: Armature.004|Point|Point|00|Point|00
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -45,7 +40,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: -1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -92,7 +87,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: -0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
