@@ -5,6 +5,9 @@ public class AnimationScript : MonoBehaviour
     public GameObject Hand1_bomb, Hand2_printer;
     public Animator MoldAnim;
 
+    public GameObject ObiSolver, HandPrintObjCollider, Cam2;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,5 +41,13 @@ public class AnimationScript : MonoBehaviour
     public void HandPlaced()
     {
         Hand1_bomb.GetComponent<Animator>().SetBool("liftBomb", true);
+        HandPrintObjCollider.SetActive(true);
+        
+    }
+
+    public void StartPouring()
+    {
+        Cam2.SetActive(true);
+        ObiSolver.SetActive(true);
     }
 }

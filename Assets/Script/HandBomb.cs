@@ -21,4 +21,8 @@ public class HandBomb : MonoBehaviour
         animationScript.BombPlaced();
     }
    
+    public void StartPouring()
+    {
+        animationScript.StartPouring();
+    }
 }
