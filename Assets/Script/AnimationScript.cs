@@ -5,7 +5,7 @@ public class AnimationScript : MonoBehaviour
     public GameObject Hand1_bomb, Hand2_printer;
     public Animator MoldAnim;
 
-    public GameObject ObiSolver, HandPrintObjCollider, Cam2;
+    public GameObject Pan, HandPrintObjCollider, Cam2, obiSolver;
 
 
     // Start is called before the first frame update
@@ -47,7 +47,13 @@ public class AnimationScript : MonoBehaviour
 
     public void StartPouring()
     {
+        
+        Pan.SetActive(true);
+    }
+
+    public void StartObiFluid()
+    {
         Cam2.SetActive(true);
-        ObiSolver.SetActive(true);
+        obiSolver.SetActive(true);
     }
 }
