@@ -5,7 +5,7 @@ public class AnimationScript : MonoBehaviour
     public GameObject Hand1_bomb, Hand2_printer;
     public Animator MoldAnim;
 
-    public GameObject Pan, HandPrintObjCollider, Cam2, obiSolver;
+    public GameObject Pan, HandPrintObjCollider, Cam2, obiSolver, Hand2Pick, RedPlane;
 
 
     // Start is called before the first frame update
@@ -55,5 +55,15 @@ public class AnimationScript : MonoBehaviour
     {
         Cam2.SetActive(true);
         obiSolver.SetActive(true);
+    }
+
+    public void WickPut()
+    {
+        Hand2Pick.SetActive(true);
+    }
+
+    public void FillPlane()
+    {
+        RedPlane.SetActive(true);
     }
 }

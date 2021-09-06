@@ -10,4 +10,9 @@ public class PanScript : MonoBehaviour
     {
         animationScript.StartObiFluid();
     }
+
+    public void PutWick()
+    {
+        animationScript.WickPut();
+    }
 }
